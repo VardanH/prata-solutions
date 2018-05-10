@@ -1,0 +1,29 @@
+// Example program
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  
+   cout<<"Jam@ asa )) : ";
+  int jam ;
+  cin>>jam;
+  cout<<"Asa menak ropen )) : ";
+  int rope;
+  cin>>rope;
+  void Jam_asa (int , int  );// mi tesak durs chi galis es (int, int) peta haskanal
+  Jam_asa(jam,rope);
+  
+  
+  
+  
+  
+   return 0;
+}
+void Jam_asa (int a, int b ){// es int tipi 1-c avel parametr niujeli hat hat piti haytararenq?((
+    
+    cout<<"Uzum eir aseir hima jam@ "<<a<<":"<<b<<" a?";
+    
+    
+    
+    }
