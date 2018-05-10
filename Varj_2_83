@@ -1,0 +1,22 @@
+// Example program
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  
+   cout << "Heravorutyun@ farlognerov?" << endl;
+  int far;
+   cin>>far;
+   double Far_metri(int);
+   double elq;
+   elq=Far_metri (far);
+   cout<<elq<<" .Far@ sarqeci metr))";
+   
+   return 0;
+}
+ double Far_metri (int a ){
+     double elq=a*201168;// lav kliner inj vor sahmanapakum liner if ov vor doubli mej hastat tex aner arjeq@
+     return elq;
+     
+     }
