@@ -1,0 +1,21 @@
+// Example program
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  
+  cout<<"Gri qani tarekan es?: ";
+  cout<<endl;
+  int tariq;
+  cin>>tariq;
+  int A_1 (int);
+  int elq=A_1(tariq);
+  cout<<"QO tariq@ amisnerov "<<elq;
+  
+   return 0;
+}
+ int A_1 (int a){
+     int elq=a*12;
+     return  elq;        
+     }
