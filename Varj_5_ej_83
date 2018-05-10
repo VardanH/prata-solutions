@@ -1,0 +1,26 @@
+// Example program
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  
+   cout<<"Asa celsiucov germastichan@ :";
+   int celsius;
+  cin>>celsius;
+  
+  double Farenheyt_celsiusi (int );
+  int elq=Farenheyt_celsiusi(celsius);
+  cout<<endl<<celsius<<" Celsius@ "<<elq<<" farenheyti e havasar.";// endl mi tox shift arec xi? karoxa harc@ cin-i mej a
+  
+  
+   return 0;
+}
+ double Farenheyt_celsiusi (int a){
+     
+     
+    double elq=a*1.8+32;
+     
+     
+     return  elq;        
+     }
