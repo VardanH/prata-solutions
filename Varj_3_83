@@ -1,0 +1,24 @@
+// Example program
+#include <iostream>
+
+using namespace std;
+
+int main()
+{  
+   void F_1 (void);
+   void F_2 (void);
+  F_1();
+  F_1();
+  F_2();
+  F_2();
+  
+   return 0;
+}
+ void F_1 (void){
+     cout<<"Ha ibr inj?"<<endl;
+     
+     }
+      void F_2 (void){
+     cout<<"To es shat gitem"<<endl;
+     
+     }
