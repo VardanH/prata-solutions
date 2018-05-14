@@ -1,0 +1,37 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<< "Dzer hasaki metrer@  ? __";
+    int hasak_metr;
+    std::cin>>hasak_metr;
+    
+    std::cout<<"Dzer hasaki santimetrer@ ? __";
+    int hasak_santimetr;
+    std::cin>>hasak_santimetr;
+    
+    std::cout<<"Dzer Qash@ fuNtov ? __";
+    int qash_funt;
+    std::cin>>qash_funt;
+    ///////////// Arjeqner@ @ndunecinq 
+    
+    const int m_sm=100;
+    int hasak_menak_sm;
+    hasak_menak_sm=hasak_metr*m_sm+hasak_santimetr;
+    const float K_1=0.0254;
+    float k_1=hasak_menak_sm*K_1;
+    
+    const float K_2=2.2;
+    float k_2=qash_funt*K_2;
+    
+    int hasak_qm;
+    hasak_qm=hasak_metr*hasak_metr;
+    
+    std::cout<<"arajin kaficent@ = "<<k_1<<". erkrord kaficent@ = "<<k_2<<". errord kaficent@ = "<<hasak_qm;
+    
+    
+    
+    
+    
+    
+}
