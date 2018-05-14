@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Mutqagreq varkyanner@ __ ";
+    long long  varkyan_mutq;
+    std::cin>>varkyan_mutq;
+    const int or_varkyanic=86400;
+    const int jam_varkyanic=3600;
+    const int rope_varkyanic=60;
+    
+    int ory=varkyan_mutq/or_varkyanic;
+    int jam=(varkyan_mutq - ory*or_varkyanic) / jam_varkyanic ;
+    int rope=(varkyan_mutq -ory*or_varkyanic - jam*jam_varkyanic ) / rope_varkyanic;
+    int varkyan_elq=varkyan_mutq -ory*or_varkyanic - jam*jam_varkyanic -rope*rope_varkyanic ; 
+    std::cout<<ory<<" or    "<<jam<<" Jam  "<<rope<<"  rope "<<varkyan_elq<<"  varkyan";
+}
