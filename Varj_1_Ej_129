@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main()
+{
+std::cout<<"Dzer hasak@ santimetrov?"<<std::endl;
+int hasak_sm;
+std::cout<<"__";
+std::cin>>hasak_sm;/// cin@ xi nor toxic chsksec???
+const int sm_metri=100;//chem hishum vonc greinq vor im uzac tipov pahi constant@
+int hasak_metr;
+hasak_metr    =hasak_sm/sm_metri;
+int hasak_sm_2=hasak_sm%sm_metri;
+std::cout<<"hasak@ metrov = "<<hasak_metr<<". hasak@ santimetrov ="<<hasak_sm_2;
+}
