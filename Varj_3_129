@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Mutqagreq ashxarhagrakan laynutyun@, astchanov, ropeov, varkyanov,";
+    std::cout<<std::endl<<"Skzbum mutqagreq layn utyun@ __ ";
+    int laynutyun;
+    std::cin>>laynutyun;
+    std::cout<<" Hima mutqagreq ropen __ ";
+    int rope;
+    std::cin>>rope;
+    std::cout<<" Hima mutqagreq varkyan@ __ ";
+    int varkyan;
+    std::cin>>varkyan;
+    //////////tvyalneri mutqagrum
+    
+    const float f_60=60.0;
+    float tasakan=laynutyun + (rope/f_60) + (varkyan/f_60);//inj vor ban en chi 37,51,19 arjeqneri depqum es stanum em 38,1667 Grqum grac a38,8553
+    
+    std::cout<<laynutyun<<" Astchan laynutyun@ "<<rope<<" ropen "<<varkyan<<" varkyan@ <<"" ="
+    <<tasakan<<" :"; 
+    
+    
+    
+    
+}
