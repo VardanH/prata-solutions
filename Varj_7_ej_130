@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Qani litr 100km in? __ ";
+   float litr_100km;
+   std::cin>>litr_100km;
+   float mek_galon_km=62.14/(litr_100km/3.875);
+   std::cout<<"Mek galonin   "<<mek_galon_km <<" Mxon";
+    
+}
