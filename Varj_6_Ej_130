@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Qani kilometr e? __ ";
+    float km;
+    std::cin>>km;
+    std::cout<<"Qani litr?       __ ";
+    float benzin;
+    std::cin>>benzin;
+    float harur=100.0;
+    float harur_km=(benzin/km)*harur;
+    
+    std::cout<<"Harur kilometrin "<<harur_km<<" litr benzin";
+    
+    
+}
