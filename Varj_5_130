@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Erkir moloraki mardkanc qanak@ __ ";
+    long long ashxarh;
+    long long x_erkir;
+    std::cin>>ashxarh;
+    std::cout<<"X erkri markanc qanak@         __ ";
+    std::cin>>x_erkir;
+    long double harur=100.0;
+    
+    long double tokos=x_erkir / (ashxarh/harur);// petq a mi hat el lav nael ,-ov tveri het gorcoxutyunner@
+    std::cout<<"X erkri populiacian Ashxarhi populiaciai "<<tokos<<"% Tokosn a";
+}
