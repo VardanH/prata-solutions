@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+  std::string str_out=" Barev \n";  
+ std::cout<<str_out;
+ 
+ std::cout<<"Gri tox __ ";
+ std::string str_in_1,str_in_2;
+ getline(std::cin,str_in_1);
+ 
+ std::cout<<"2rd tox@ __ ";
+ getline(std::cin,str_in_2);
+    
+        ////std::cout<<str_in_1;
+std::cout<<"Gri Tar@  __ ";
+ char mutqi_tar;
+ std::cin>>mutqi_tar;
+ mutqi_tar= mutqi_tar+1;
+      /////// std::cout<<mutqi_tar;
+std::cout<<" Mutq Ara Tiv "<<std::endl;
+int mutqi_tiv;
+std::cin>>mutqi_tiv;
+    ///std::cout<<mutqi_tiv;
+      
+      
+      std::cout<<"NAme : "<<str_in_2<<" , "<<str_in_1<<std::endl;
+      std::cout<<"grade : "<<mutqi_tar<<std::endl;
+      std::cout<<"Age : "<<mutqi_tiv<<std::endl;
+      
+      
+}
