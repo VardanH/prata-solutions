@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+#include<array>
+
+
+int main()
+{
+ std::array<float,3> vazq;
+ std::cout<<"40 metr qani varkyanum  "<<std::endl<<" __ ";
+ std::cin>>vazq[0];
+ 
+ std::cout<<"40 metr qani varkyanum  "<<std::endl<<" __ ";
+ std::cin>>vazq[1];
+ 
+ std::cout<<"40 metr qani varkyanum  "<<std::endl<<" __ ";
+ std::cin>>vazq[2];
+ 
+ float  elq = (vazq[0] + vazq[1] + vazq[2]) / 3;
+ std::cout<<elq;
+ 
+}
