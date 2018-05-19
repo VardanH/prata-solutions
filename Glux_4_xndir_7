@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+  struct a {
+      char tox[50];
+      float dim;
+      int qash;  
+           
+      };
+      a b;
+     std::cout<<" Tox mutq ara "<<std::endl;
+     std::cin.getline(b.tox,50);
+     
+     std::cout<<"diametr gri "<<std::endl;
+     std::cin>>b.dim;
+     
+     std::cout<<" Qashn el gri"<<std::endl;
+     std::cin>>b.qash;
+     
+     std::cout<<b.tox<<"  "<<b.dim<<"  "<<b.qash;
+     
+}
