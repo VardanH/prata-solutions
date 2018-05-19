@@ -1,0 +1,22 @@
+#include <iostream>
+#include<string>
+
+
+
+int main()
+{
+
+std::cout<<"asa anund )) "<<std::endl<<"_ ";
+std::string anun;
+std::cin>>anun;
+
+std::cout<<"asa Azganund )) "<<std::endl<<"_ ";
+std::string azganun;
+std::cin>>azganun;
+
+std::string storaket=" , ";
+std::string elq;
+elq=anun+storaket+azganun;
+
+std::cout<<"Anun Azganun mi toxov  __ "<<elq;
+}
