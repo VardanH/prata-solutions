@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+
+std::string  name ;
+std::string  desert ;
+
+std::cout<<"Enter Your Name"<<std::endl;
+ getline(std::cin,name);
+ std::cout<<"Enter your favorit dessert"<<std::endl;
+ 
+ getline(std::cin,desert);
+ 
+ std::cout<<"I have some delicios  "<<desert;
+ std::cout<<"  For You "<<name<<".\n";
+}
