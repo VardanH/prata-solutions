@@ -1,0 +1,21 @@
+#include <iostream>
+
+#include <cstring>
+
+
+int main()
+{
+char anun[50];
+std::cout<<"Gri anund __ ";
+std::cin>>anun;
+char azganun[50];
+std::cout<<"Gri azganund __ ";
+std::cin>>azganun;
+char storaket []="  ,  ";
+
+strcat( anun,storaket);
+strcat(anun,azganun);
+std::cout<<"Aha informacian mek toxov  __  "<<anun;
+
+
+}
