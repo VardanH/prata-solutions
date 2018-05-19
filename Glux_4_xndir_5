@@ -1,0 +1,21 @@
+#include <iostream>
+#include<string>
+
+
+
+int main()
+{
+struct argin_structs {
+    std::string anun;
+    float qash;
+    int kaloria;  
+    
+    };
+     argin_structs candy={
+        "moka manch",
+        3.16,
+        456        
+        };
+    std::cout<<candy.anun<<" "<<candy.qash<<"  "<<candy.kaloria;    
+        
+}
