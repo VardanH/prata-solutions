@@ -1,0 +1,23 @@
+#include <iostream>
+#include<string>
+
+
+
+int main()
+{
+struct argin_structs {
+    std::string anun;
+    float qash;
+    int kaloria;  
+    
+    };
+     argin_structs candy[3]={
+       {"anun_1",10.10,100},
+       {"anun_2",20.20,200},
+       {"anun_3",30.30,300}
+        };
+        
+    std::cout<<candy[0].anun<<"  "<<candy[0].qash<<"  "<<candy[0].kaloria<<std::endl;    
+     std::cout<<candy[1].anun<<"  "<<candy[1].qash<<"  "<<candy[1].kaloria<<std::endl;
+     std::cout<<candy[2].anun<<"  "<<candy[2].qash<<"  "<<candy[2].kaloria<<std::endl;
+}
