@@ -1,0 +1,29 @@
+#include <iostream>
+
+
+int main()
+{
+float Dav_sh,Dav_ntacik ;
+float Kar_ntacik,Kar_tokos ;
+const float dollar=100;
+
+Kar_ntacik=100;
+Kar_tokos=5;
+Dav_ntacik=100;
+int tari=0;
+do {
+    Dav_sh=0.10*dollar;
+    Dav_ntacik +=Dav_sh;
+    
+    Kar_ntacik=(Kar_ntacik/100)* Kar_tokos + Kar_ntacik; 
+    
+    ++ tari ;
+    std::cout<<tari<<"  Ancac Tariner "<<std::endl;  //miamit std::cout ei grel u inj vor hasce er tpum 
+    std::cout<<" Dav @ntacik@ ----------"<<Dav_ntacik<<std::endl;
+    std::cout<<" Kar @ntacik@ "<<Kar_ntacik<<std::endl;
+    
+    
+    }    while (Kar_ntacik<=Dav_ntacik);
+    
+}
+
