@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+std::cout<<"Mut ara tiv "<<std::endl;
+int tiv_1;
+std::cin>>tiv_1;
+
+std::cout<<"Mutq ara aveli mec tiv"<<std::endl;
+int tiv_2;
+std::cin>>tiv_2;
+
+int gumar;
+for (int i=tiv_1;i<=tiv_2;i++){
+    gumar+=tiv_1;
+    }
+    std::cout<<"Gumar@ "<<gumar;
