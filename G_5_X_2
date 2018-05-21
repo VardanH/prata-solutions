@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+#include<array>
+
+int main()
+{
+const int ariSize=100;
+std::array <long double, ariSize> fac;
+fac[1]=fac[0]=1;
+for (int i=2;i<ariSize;i++)
+fac[i]=i*fac[i-1];
+for (int i=0;i<ariSize;i++)
+std::cout<<i<<"! = "<<fac[i]<<std::endl;
+
+
+
+
+}
