@@ -1,0 +1,25 @@
+// Example program
+#include <iostream>
+#include <string>
+
+int main()
+{
+  int Amis_12[12] = {0};  //1 tarva /12 amsva hamar vacharvac grqi qanakner@ pahelu hamar
+  
+  char Amisneri_anunner[][20]={"Hunvar","Petrvar","Mart","April","Mais","Hunis","Hulis","Ogostos","September","Hoktember","Noywmber","Dektember"};
+  int i = 0;
+  
+  for (char* x : Amisneri_anunner){
+  std::cout<<x<<" Mutqagreq Qanak"<<std::endl;
+  
+   std::cin>>Amis_12[i];
+   ++i;
+    }
+    int y=0;
+    for (int x : Amis_12){
+       
+        y += x;
+        
+        }
+  std::cout<<" Amboxj tarva vacharq@  __ "<<y;
+}
